@@ -24,8 +24,9 @@
 			<object id="floorPlan"> </object>
 			<br>
 			<p>Locate a boardroom:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-				<select id="boardroomListID" onchange="getBoardroomLocation(this);">
+				<select id="boardroomListID" onchange="getVenueLocation(this);">
 					<option value="blank">Select Room...</option>
+					<option value="nonExistentRoomId">Unknown...</option>
 					<option value="acaciaRoomId">Acacia</option>
 					<option value="achieveRoomId">Achievement</option>
 					<option value="baobabRoomId">Baobab</option>
