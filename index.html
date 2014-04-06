@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>KPMG Jhb Venue Locator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div id="container">
+	        <h1>KPMG Jhb Venue Locator</h1>
+	        
+	        <!--<object id="floorPlan1" type="image/svg+xml" data="img/crescent2map.svg">Your browser does not support SVG</object>-->
+			<object id="floorPlan"> </object>
+			<br>
+			<p>Locate a boardroom:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+				<select id="boardroomListID" onchange="getBoardroomLocation(this);">
+					<option value="blank">Select Room...</option>
+					<option value="acaciaRoomId">Acacia</option>
+					<option value="achieveRoomId">Achievement</option>
+					<option value="baobabRoomId">Baobab</option>
+					<option value="crescent1RoomId">Crescent 1</option>
+					<option value="crescent2RoomId">Crescent 2</option>
+					<option value="crescent3RoomId">Crescent 3</option>
+					<option value="cres4RoomId">Crescent 4</option>
+					<option value="cres5RoomId">Crescent 5</option>
+					<option value="ebonyRoomId">Ebony</option>
+					<option value="energyRoomId">Energy</option>
+					<option value="FIOSRoomId">FIOS Project Room</option>
+					<option value="mahoganyRoomId">Mahogany</option>
+					<option value="msasaRoomId">Msasa</option>
+					<option value="platinumRoomId">Platinum</option>
+					<option value="sccm1RoomId">SCCM 1</option>
+					<option value="sccm2RoomId">SCCM 2</option>
+					<option value="sccm3RoomId">SCCM 3</option>
+					<option value="successRoomId">Success</option>
+					<option value="tambotiRoomId">Tamboti</option>
+					<option value="tanzaniteRoomId">Tanzanite</option>
+					<option value="TnLRoomId">T &amp; L Training Room</option>
+					<option value="teamworkRoomId">Teamwork</option>
+					<option value="visionRoomId">Vision</option>
+					<option value="wallStreetRoomId">Wall Street</option>
+				</select>
+			</p>
+			
+			<p>Locate Business Unit:&nbsp;&nbsp;&nbsp;&nbsp;
+				<select name="busUnitList" id="busUnitList">
+				<!--<option onclick="facilDetail()">Facilities</option>
+					<option>SSC</option>
+					<option>ITS</option>
+					<option>Risk Management</option>
+					<option>Tax</option>-->
+				</select>
+			</p>
+			<br>
+			<br>
+			<br>
+			<h3 id="headerDetails">Header details go here</h3>
+			<p id="paraDetails">Paragraph details to go here</p>
+			<br>
+		</div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
