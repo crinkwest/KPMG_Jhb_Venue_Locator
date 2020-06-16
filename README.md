@@ -1,4 +1,4 @@
-# KPMG Jhb Venue Locator
+# Venue Locator
 
 This project was started to assist staff and visitors at the KPMG offices in
 Johannesburg to easily locate Business Units and Boardrooms and quickly be
